@@ -1,0 +1,313 @@
+<html>
+    <head>
+        <script type="text/javascript">
+            (function(){(function(){function La(){document.cookie="__dTCookie=1";var ha=-1!==document.cookie.indexOf("__dTCookie");document.cookie="__dTCookie=1; expires=Thu, 01-Jan-1970 00:00:01 GMT";return ha}function Va(){return void 0===Ia.dialogArguments?navigator.cookieEnabled||La():La()}function Pa(){var ha;if(Va()&&!window.dT_){var ba=(ha={},ha.cfg="app=424d1d8376605c5e|cors=1|featureHash=A27SVfqrux|reportUrl=https://bf61087drx.bf-sprint.dynatracelabs.com/bf|rdnt=0|uxrgce=1|bp=3|cuc=l65jnvcs|dpvc=1|lastModification=1589028615191|dtVersion=10193200508171756|tp=500,50,0,1|uxdcw=1500|featureHash=A27SVfqrux|agentUri=https://js-cdn.dynatracelabs.com/jstag/145e049b9b1/ruxitagent_A27SVfqrux_10193200508171756.js|auto=|domain=|rid=RID_|rpid=|app=424d1d8376605c5e",ha.iCE=Va,ha);window.dT_=ba}}var Ia="undefined"!==typeof window?window:
+            self,Ma;Ia.dT_?null===(Ma=Ia.console)||void 0===Ma?void 0:Ma.log("Duplicate agent injection detected, turning off redundant initConfig."):Pa()})();}).call(this);
+            (function(){(function(){function La(){}function Va(){for(var u=0,J=0,ta=arguments.length;J<ta;J++)u+=arguments[J].length;u=Array(u);var R=0;for(J=0;J<ta;J++)for(var Db=arguments[J],Hb=0,qc=Db.length;Hb<qc;Hb++,R++)u[R]=Db[Hb];return u}function Pa(){var u=0;try{u=Math.round(n.performance.now())}catch(J){}return 0>=u||isNaN(u)||!isFinite(u)?(new Date).getTime()-Ia():u}function Ia(){var u=0;try{u=Math.round(n.performance.timeOrigin)}catch(ta){}if(0>=u||isNaN(u)||!isFinite(u)){u=n.dT_;var J=0;try{J=n.performance.timing.navigationStart}catch(ta){}u=
+            0>=J||isNaN(J)||!isFinite(J)?u.gAST():J}return u}function Ma(u,J,ta,R){"undefined"===typeof R&&(R=ba(J,!0));"boolean"===typeof R&&(R=ba(J,R));u===n?z?z(J,ta,R):ya&&ya("on"+J,ta):Xa&&u instanceof Xa?cb.call(u,J,ta,R):u.addEventListener?u===n.document||u===n.document.documentElement?T.call(u,J,ta,R):z.call(u,J,ta,R):u.attachEvent&&u.attachEvent("on"+J,ta);R=!1;for(var Db=$a.length;0<=--Db;){var Hb=$a[Db];if(Hb.object===u&&Hb.event===J&&Hb.M===ta){R=!0;break}}R||n.dT_.apush($a,{object:u,event:J,M:ta})}
+            function ha(u,J,ta,R){for(var Db=$a.length;0<=--Db;){var Hb=$a[Db];if(Hb.object===u&&Hb.event===J&&Hb.M===ta){$a.splice(Db,1);break}}"undefined"===typeof R&&(R=ba(J,!0));"boolean"===typeof R&&(R=ba(J,R));u===n?G?G(J,ta,R):ya&&ya("on"+J,ta):u.removeEventListener?u===n.document||u===n.document.documentElement?la.call(u,J,ta,R):G.call(u,J,ta,R):u.detachEvent&&u.detachEvent("on"+J,ta)}function ba(u,J){var ta=!1;try{var R=n.dT_;if(z&&-1<R.aIOf(rc,u)){var Db=Object.defineProperty({},"passive",{get:function(){ta=
+            !0}});z("test",La,Db)}}catch(Hb){}return ta?{passive:!0,capture:J}:J}function sa(){for(var u=$a,J=u.length;0<=--J;){var ta=u[J];ha(ta.object,ta.event,ta.M)}$a=[];n.dT_.cx()}function Ha(){return $c?new $c:Ec?new Ec("MSXML2.XMLHTTP.3.0"):n.XMLHttpRequest?new n.XMLHttpRequest:new n.ActiveXObject("MSXML2.XMLHTTP.3.0")}function aa(){Ec=$c=void 0}function W(){try{ad.apply(n.parent,arguments)}catch(u){}}function fa(){try{ti.apply(n.top,arguments)}catch(u){}}function pa(u){var J=Array.prototype.slice.call(arguments,
+            1);try{rb.apply(u,J)}catch(ta){}}function I(u){var J=Array.prototype.slice.call(arguments,1);try{Xb.apply(u,J)}catch(ta){}}function Da(){return Oc()}function wa(u,J){function ta(){delete He[Hb];u.apply(this,arguments)}for(var R=[],Db=2;Db<arguments.length;Db++)R[Db-2]=arguments[Db];var Hb;"apply"in ec?Hb=ec.apply(n,Va([ta,J],R)):Hb=ec(ta,J);He[Hb]=!0;return Hb}function Fa(u){delete He[u];"apply"in nf?nf.call(n,u):nf(u)}function ma(u){for(var J=[],ta=1;ta<arguments.length;ta++)J[ta-1]=arguments[ta];
+            u.push.apply(u,J)}function ia(u){ma(Ad,u)}function M(u){for(var J=Ad.length;J--;)if(Ad[J]===u){Ad.splice(J,1);break}}function Aa(){return Ad}function oa(u,J){return Kc(u,J)}function qa(u,J){if(!$b||!ic)return"";u=new $b([u],{type:J});return ic(u)}function Ga(u,J){return Yb?new Yb(u,J):void 0}function V(u){"function"===typeof u&&ma(Kf,u)}function S(){return Kf}function O(){return Lf}function Q(u){return function(){for(var J=[],ta=0;ta<arguments.length;ta++)J[ta]=arguments[ta];if("number"!==typeof J[0]||
+            !He[J[0]])try{return u.apply(this,J)}catch(R){return u(J[0])}}}function Ba(){try{ah=n.localStorage,Mf=n.sessionStorage}catch(u){}n.performance&&(Oc=function(){return Math.round(Ia()+Pa())});if(!Oc||isNaN(Oc())||0>=Oc()||!isFinite(Oc()))Oc=function(){return(new Date).getTime()};Lf=Oc();Ad=[];He={};Bd||(n.clearTimeout=Q(nf),n.clearInterval=Q(Cg),Bd=!0)}function D(){Bd&&(n.clearTimeout=nf,n.clearInterval=Cg,Bd=!1)}function L(){var u=Oc(),J=Math.pow(2,32);return function(){u=(1664525*u+1013904223)%J;
+            return u/J}}function H(u,J){var ta=ui?Math.random():Dg();return isNaN(u)||isNaN(J)?Math.floor(33*ta):Math.floor(ta*(J-u+1))+u}function C(u,J){return parseInt(u,J||10)}function w(u,J,ta){void 0===ta&&(ta=0);var R=-1;J&&(null===u||void 0===u?0:u.indexOf)&&(R=u.indexOf(J,ta));return R}function y(u){return document.getElementsByTagName(u)}function B(u){var J=u.length;if("number"===typeof J)u=J;else{J=0;for(var ta=2048;u[ta-1];)J=ta,ta+=ta;for(var R=7;1<ta-J;)R=(ta+J)/2,u[R-1]?J=R:ta=R;u=u[R]?ta:J}return u}
+            function X(u){u=encodeURIComponent(u);var J=[];if(u)for(var ta=0;ta<u.length;ta++){var R=u.charAt(ta);ma(J,bh[R]||R)}return J.join("")}function ca(u){if(!u)return"";var J=n.crypto||n.msCrypto;if(J)J=J.getRandomValues(new Uint8Array(u));else{J=[];for(var ta=0;ta<u;ta++)J.push(H(0,32))}u=[];for(ta=0;ta<J.length;ta++){var R=Math.abs(J[ta]%32);u.push(String.fromCharCode(R+(9>=R?48:55)))}return u.join("")}function Ka(){var u;return!(null===(u=n.console)||void 0===u||!u.log)}function N(u){-1<n.dT_.io(u,
+            "^")&&(u=u.split("^^").join("^"),u=u.split("^dq").join('"'),u=u.split("^rb").join(">"),u=u.split("^lb").join("<"),u=u.split("^p").join("|"),u=u.split("^e").join("="),u=u.split("^s").join(";"),u=u.split("^c").join(","),u=u.split("^bs").join("\\"));return u}function K(){return Nf}function ka(u){Nf=u}function Ja(u){var J=n.dT_,ta=J.scv("rid");J=J.scv("rpid");ta&&(u.rid=ta);J&&(u.rpid=J)}function Ya(u){if(u=u.xb){u=N(u);try{Nf=new RegExp(u)}catch(J){}}}function Za(){return Ab}function fb(){return de}
+            function Kb(){return Mh}function lb(){return ch}function Bb(){return"dtAdk"}function vb(){return Of}function mb(u,J){try{var ta=Mf;ta&&ta.setItem(u,J)}catch(R){}}function Cb(u){try{var J=Mf;if(J)return J.getItem(u)}catch(ta){}return null}function gc(u){try{var J=Mf;J&&J.removeItem(u)}catch(ta){}}function Lc(u,J){if(sc()&&(!p().overloadPrevention||eb()))return u.apply(this,J||[])}function sc(){return!Gb("coo")||Gb("cooO")||eb()}function bc(u){document.cookie=u+'="";path=/'+(Eb("domain")?";domain="+
+            Eb("domain"):"")+"; expires=Thu, 01 Jan 1970 00:00:01 GMT;"}function hc(u,J,ta){var R=1,Db=0;do document.cookie=u+'=""'+(J?";domain="+J:"")+";path="+ta.substr(0,R)+"; expires=Thu, 01 Jan 1970 00:00:01 GMT;",R=ta.indexOf("/",R),Db++;while(-1!==R&&5>Db)}function ra(u){var J=document.cookie;if(!J)return"";var ta=u+"=";u=w(J,ta);if(0>u)return"";for(;0<=u;){if(0===u||" "===J.charAt(u-1)||";"===J.charAt(u-1))return ta=u+ta.length,u=w(J,";",u),0<=u?J.substring(ta,u):J.substr(ta);u=w(J,ta,u+ta.length)}return""}
+            function Na(){var u=document.domain||"";if(!u)return"";u=u.split(".").reverse();var J=u.length;if(1>=J)return"";for(var ta=u[0],R="",Db=1;Db<=J;Db++)if(ra("dTValidationCookie")){R=ta;break}else u[Db]&&(ta=u[Db]+"."+ta),document.cookie="dTValidationCookie=dTValidationCookieValue;path=/;domain="+ta;hc("dTValidationCookie",R,"/");return R}function Ra(u,J,ta,R){J||0===J?(J=String(J).replace(/[;\n\r]/g,"_"),u=u+"="+J+";path=/"+(Eb("domain")?";domain="+Eb("domain"):""),ta&&(u+=";expires="+ta.toUTCString()),
+            R&&(u+=";Secure"),document.cookie=u):bc(u)}function jb(u,J,ta,R){Lc(Ra,[u,J,ta,R])}function ob(u){return 2<(null===u||void 0===u?void 0:u.split("$").length)?!1:/^[0-9A-Za-z_=:\$\+\/\.\-\*%\|]*$/.test(u)}function pb(){var u=ra(Ab);u||((u=Cb(Ab))&&ob(u)?hb(u):u="");return ob(u)?u:""}function hb(u){jb(Ab,u,void 0,Gb("ssc"))}function na(u){return u.length===Eg||12>=u.length?u:""}function Ca(u){if(!isNaN(Number(u))){var J=C(u);if(-99<=J&&99>=J)return u}return""}function Ua(u){var J={sessionId:"",qb:""},
+            ta=w(u,"|"),R=u;-1!==ta&&(R=u.substring(0,ta));ta=w(R,"$");-1!==ta?(J.sessionId=na(R.substring(ta+1)),J.qb=Ca(R.substring(0,ta))):J.sessionId=na(R);return J}function Wa(u){var J={sessionId:"",qb:""},ta=u.split("v"===u.charAt(0)?"_":"=");if(2<ta.length&&0===ta.length%2){u=Number(ta[1]);if(isNaN(u)||3>u)return J;u={};for(var R=2;R<ta.length;R++)u[ta[R]]=ta[R+1],R++;u.sn?J.sessionId=na(u.sn):J.sessionId="hybrid";u.srv&&(J.qb=Ca(u.srv));ta=eb();R=p();"1"!==u.ol||ta||(mb("dtDisabled","true"),R.disabled=
+            !0,R.overloadPrevention=!0)}return J}function ab(){return!Gb("dpvc")&&!Gb("pVO")}function db(u){if(u=u||pb()){var J=u.charAt(0);return"v"===J||"="===J?Wa(u):Ua(u)}return{sessionId:"",qb:""}}function Fb(u){return db(u).qb}function kb(u){return db(u).sessionId}function eb(){return 0<=w(navigator.userAgent,"RuxitSynthetic")}function zb(u){var J={};u=u.split("|");for(var ta=0;ta<u.length;ta++){var R=u[ta].split("=");2===R.length&&(J[R[0]]=decodeURIComponent(R[1].replace(/\+/g," ")))}return J}function Ob(){var u=
+            Eb("csu");return(u.indexOf("dbg")===u.length-3?u.substr(0,u.length-3):u)+"_"+Eb("app")+"_Store"}function wb(u,J,ta){J=J||{};u=u.split("|");for(var R=0;R<u.length;R++){var Db=u[R],Hb=w(u[R],"=");-1===Hb?J[Db]="1":(Db=u[R].substring(0,Hb),J[Db]=u[R].substring(Hb+1,u[R].length))}!ta&&(ta=J,u=ta.spc)&&(R=document.createElement("textarea"),R.innerHTML=u,ta.spc=R.value);return J}function Ub(u){var J;return J=Qb[u],null!==J&&void 0!==J?J:of[u]}function Gb(u){u=Ub(u);return"false"===u||"0"===u?!1:!!u}function Rb(u){var J=
+            Ub(u);J=C(J);isNaN(J)&&(J=of[u]);return J}function Eb(u){return String(Ub(u)||"")}function fc(u,J){Qb[u]=J}function Fc(u){Qb=u;u=Ie;for(var J in u)u.hasOwnProperty(J)&&u[J]&&(Qb[J]=u[J]);return Qb}function ac(u){Qb[u]=0>w(Qb[u],"#"+u.toUpperCase())?Qb[u]:""}function jc(u){var J=u.agentUri;J&&-1<w(J,"_")&&(J=/([a-zA-Z]*)[0-9]{0,4}_([a-zA-Z_0-9]*)_[0-9]+/g.exec(J))&&J.length&&2<J.length&&(u.csu=J[1],u.featureHash=J[2])}function bd(u){var J=u.domain||"";var ta=(ta=location.hostname)&&J?ta===J||-1!==
+            ta.indexOf("."+J,ta.length-("."+J).length):!0;J&&ta||(u.domainOverride||(u.domainOverride=location.hostname+","+J,delete u.domain),(J=Na())&&(u.domain=J))}function Nb(u,J){bd(Qb);Qb.pVO&&(u.pVO=Qb.pVO);J||(J=u.bp||of.bp,u.bp2&&(J=2),4!==J||n.JSON||(J=1),u.bp=String(J))}function Uc(){return Qb}function Cd(){return se}function Md(){ee(function(){kb()||hb(-1*H(2,21)+"$"+ca(Eg));se=Fb()||""})}function yc(){return Ye}function nd(){var u=Rb("vs"),J=fd();2<=u&&-1===J?J=0:1===u&&-1<J&&(J=-1);Gc(Pc(!0),void 0,
+            J)}function gd(u,J){J=Pc(J);for(var ta=!1,R=0;R<J.length;R++)J[R].frameId===Ye&&(J[R].L=u,ta=!0);ta||ma(J,{frameId:Ye,L:u,Pa:-1,visitId:""});Gc(J)}function Gc(u,J,ta){if(u){var R=[];for(var Db=0;Db<u.length;Db++)if("-"!==u[Db].L){0<Db&&0<R.length&&ma(R,"p");var Hb=se;Hb&&(ma(R,Hb),ma(R,"$"));ma(R,u[Db].frameId);ma(R,"h");ma(R,String(u[Db].L))}R.length||(Nh&&(Hd(!0,"a",void 0),fe(!1)),se=Fb()||"",ma(R,se),ma(R,"$"),ma(R,Ye),ma(R,"h-"));u=J||hd();ma(R,"v");ma(R,u);u=null!==ta&&void 0!==ta?ta:fd();0<=
+            u&&(ma(R,"e"),ma(R,String(u)));R=R.join("")}else R="";R||(Nh&&(Hd(!0,"a",void 0),fe(!1)),se=Fb()||"",ta=null!==ta&&void 0!==ta?ta:fd(),R=se+"$"+Ye+"h-v"+(J||hd()+(0<=ta?"e"+ta:"")));jb(Of,R||"-",void 0,Gb("ssc"))}function Pc(u){var J=ra(Of),ta=[];if(J&&"-"!==J){J=J.split("p");for(var R="",Db=null,Hb=0;Hb<J.length;Hb++){var qc=J[Hb],Sd=w(qc,"$"),cd=w(qc,"h"),id=w(qc,"v"),xb=w(qc,"e");Sd=qc.substring(Sd+1,cd);cd=-1!==id?qc.substring(cd+1,id):qc.substring(cd+1);R=R||-1!==id?-1!==xb?qc.substring(id+1,
+            xb):qc.substring(id+1):"";Db=Db||-1!==xb?qc.substring(xb+1):null;(qc=u)||(qc=C(Sd.split("_")[0]),id=Oc()%jd,id<qc&&(id+=jd),qc=qc+9E5>id);qc&&ma(ta,{frameId:Sd,L:"-"===cd?"-":C(cd),Pa:-1,visitId:""})}for(Hb=0;Hb<ta.length;Hb++)ta[Hb].visitId=R||"",ta[Hb].Pa=null!==Db?C(Db):-1}return ta}function Mc(u,J){try{n.localStorage&&n.localStorage.setItem(u,J)}catch(ta){}}function Nc(u){try{if(n.localStorage)return n.localStorage.getItem(u)}catch(J){}return null}function dd(u){try{n.localStorage&&n.localStorage.removeItem(u)}catch(J){}}
+            function hd(){return Nd()||Hd(!0,"c",void 0)}function Nd(){var u=Pc(!0);return Qc()<=Oc()?"":(ge(!1),1<=u.length?-1!==fd()&&2<=Rb("vs")&&u[0].Pa>=Rb("mel")?Hd(!0,"e"+u[0].Pa,!0):u[0].visitId||"":Cb(Pf)||"")}function ge(u){var J=Oc(),ta=Od().Bc;u&&(ta=J);he(J+Fg+"|"+ta);vc()}function Je(u,J){if(J){J=Pc(!0);var ta=void 0;if((ta=1<=J.length?J[0].visitId||"":Td(Pf)||"")&&(J=/([A-Z]+)-([0-9]+)/g.exec(ta))&&3===J.length&&isFinite(Number(J[2])))return J=J[1]+"-"+(Number(J[2])+1),ie(J,u),J}J=ca(Eg);J=J.replace(/[0-9]/g,
+            function(R){R=.1*C(R);return String.fromCharCode(Math.floor(25*R+65))});J+="-0";ie(J,u);return J}function je(u){var J=Pc(!1),ta=2<=Rb("vs")?0:-1;Gc(J,u,ta);mb(Pf,u);Dd(pf,String(ta));ge(!0)}function ub(u,J,ta,R){return Hd(J,ta,R)}function Ke(u,J,ta){return Hd(u,J,ta)}function Hd(u,J,ta){u&&(Ze=!0);u=Je(J,ta);je(u);return u}function ie(u,J){for(var ta=0;ta<Gg.length;ta++)Gg[ta](u,Ze,J)}function Ud(u){Gg.push(u)}function vc(){Vc&&Fa(Vc);Vc=wa(Rc,Qc()-Oc())}function Rc(){if(Qc()<=Oc()&&sc()){var u=Oc();
+            u=Je("t"+(u-Qc()));je(u);return!0}ee(vc);return!1}function he(u){jb("rxvt",u,void 0,Gb("ssc"));Dd("rxvt",u)}function Dd(u,J){ab()?(Mc(u,J),gc(u)):(mb(u,J),dd(u))}function Pd(u){var J=ra(u);J||(J=Td(u)||"");return J}function Ed(){var u=Nd()||"";Dd(Pf,u);u=Pd("rxvt");he(u)}function Od(){var u={Hd:0,Bc:0},J=Pd("rxvt");if(J)try{var ta=J.split("|");2===ta.length&&(u.Hd=parseInt(ta[0],10),u.Bc=parseInt(ta[1],10))}catch(R){}return u}function Qc(){var u=Od();return Math.min(u.Hd,u.Bc+dg)}function te(u){Fg=
+            u}function fe(u){void 0===u&&(u=!0);Nh=u}function qf(){var u=Ze;Ze=!1;return u}function ue(){Rc()||ge(!1)}function Sc(){var u,J,ta;if(-1!==fd()&&2<=Rb("vs")){var R=Pc(!1),Db=fd()+1;Gc(R,"",Db);Dd(pf,String(Db));null===(ta=null===(u=n.MobileAgentJSInterface)||void 0===u?void 0:(J=u).incrementActionCount)||void 0===ta?void 0:ta.call(J)}}function Td(u){var J=Nc(u);J||(J=Cb(u));return J}function fd(){var u=Pc(!0);if(1<=u.length&&!isNaN(u[0].Pa))return u[0].Pa;u=Td(pf)||"";u=C(u);return isNaN(u)?2<=Rb("vs")?
+            0:-1:u}function ee(u){sc()?u():(rf||(rf=[]),ma(rf,u))}function $e(u){return Lc(u)}function kd(){for(var u=0;u<rf.length;u++)wa(rf[u],0);rf=[];Qb.cooO=!0}function ve(){Qb.cooO=!1;bc(Ab);bc(Of);bc(ch);bc("dtSa");bc(Bb());bc("rxVisitor");bc("rxvt");try{ab()?dd(pf):gc(pf);gc(Pf);var u=Mf;u&&(u.removeItem("rxVisitor"),u.removeItem(Ab),u.removeItem("rxvt"));(u=ah)&&u.removeItem(Ob())}catch(J){}}function ld(u){var J=document.cookie?document.cookie.split(u+"=").length-1:0;if(1<J){var ta=Eb("domain")||n.location.hostname,
+            R=n.location.hostname,Db=n.location.pathname,Hb=0,qc=0;od.push(u);do{var Sd=R.substr(Hb);if(Sd!==ta||"/"!==Db){hc(u,Sd===ta?"":Sd,Db);var cd=document.cookie?document.cookie.split(u+"=").length-1:0;cd<J&&(od.push(Sd),J=cd)}Hb=R.indexOf(".",Hb)+1;qc++}while(0!==Hb&&10>qc&&1<J);Eb("domain")&&1<J&&hc(u,"",Db)}}function td(){ld(Of);ld(Ab);ld(ch);ld("rxvt");ia(function(u,J,ta,R){0<od.length&&!J&&(u.av(R,0,"dCN",function(){return od.join(",")}),u.av(R,4,"duplicateCookieNames",function(){return od.slice()}),
+            od=[])})}function af(){var u,J=ra("rxVisitor");J&&45===(null===(u=J)||void 0===u?void 0:u.length)||(J=Nc("rxVisitor")||Cb("rxVisitor"),45!==(null===J||void 0===J?void 0:J.length)&&(Hg=!0,J=String(Oc()),J+=ca(45-J.length)));u=J;if(ab()){var ta=new Date;ta.setFullYear(ta.getFullYear()+2);Mc("rxVisitor",u)}else mb("rxVisitor",u);jb("rxVisitor",u,ta,Gb("ssc"));return J}function sf(){return Hg}function Id(u){var J=ra("rxVisitor");bc("rxVisitor");gc("rxVisitor");dd("rxVisitor");jb("rxVisitor",J);Qb.pVO=
+            !0;u&&Mc("dt-pVO","1");Ed()}function eg(){dd("dt-pVO");Gb("pVO")&&(Qb.pVO=!1,af());Ed()}function x(u,J,ta,R,Db){var Hb=document.createElement("script");Hb.setAttribute("src",u);J&&Hb.setAttribute("defer","true");ta&&(Hb.onload=ta);R&&(Hb.onerror=R);Db&&Hb.setAttribute("id",Db);Hb.setAttribute("crossorigin","anonymous");u=document.getElementsByTagName("script")[0];u.parentElement.insertBefore(Hb,u)}function Z(u,J){return Vd+"/"+(J||pd)+"_"+u+"_"+(Rb("buildNumber")||p().version)+".js"}function da(){var u,
+            J=n.dT_;n.dT_=(u={},u.version="10193200508171756",u.cfg=J?J.cfg:"",u.iCE=J?J.iCE:function(){return navigator.cookieEnabled},u.ica=1,u.disabled=!1,u.overloadPrevention=!1,u.gx=Ha,u.cx=aa,u.mp=W,u.mtp=fa,u.mi=pa,u.mw=I,u.gAST=O,u.ww=Ga,u.stu=qa,u.nw=Da,u.apush=ma,u.st=wa,u.si=oa,u.aBPSL=ia,u.rBPSL=M,u.gBPSL=Aa,u.aBPSCC=V,u.gBPSCC=S,u.buildType="dynatrace",u.gSSV=Cb,u.sSSV=mb,u.rSSV=gc,u.rvl=dd,u.pn=C,u.iVSC=ob,u.p3SC=Wa,u.pLSC=Ua,u.io=w,u.dC=bc,u.sC=jb,u.esc=X,u.gSId=Fb,u.gDtc=kb,u.gSC=pb,u.sSC=hb,u.gC=ra,
+            u.cRN=H,u.cRS=ca,u.gEL=B,u.gEBTN=y,u.gSCN=Za,u.gPCHN=fb,u.gRHN=Kb,u.gPCCN=vb,u.gLCN=lb,u.gMSIDCN=Bb,u.cfgO=Uc,u.pCfg=zb,u.pCSAA=wb,u.cFHFAU=jc,u.sCD=Nb,u.bcv=Gb,u.ncv=Rb,u.scv=Eb,u.stcv=fc,u.rplC=Fc,u.cLSCK=Ob,u.gFId=yc,u.gBAU=Z,u.iS=x,u.eWE=ee,u.oEIE=$e,u.oEIEWA=Lc,u.eA=kd,u.dA=ve,u.gcSId=Cd,u.iNV=sf,u.gVID=af,u.dPV=Id,u.ePV=eg,u.sVIdUP=fe,u.sVTT=te,u.sVID=je,u.rVID=Nd,u.gVI=hd,u.gNVIdN=Ke,u.gNVId=ub,u.gARnVF=qf,u.cAUV=ue,u.uVT=ge,u.aNVL=Ud,u.gPC=Pc,u.cPC=gd,u.sPC=Gc,u.clB=D,u.ct=Fa,u.aRI=Ja,u.iXB=
+            Ya,u.gXBR=K,u.sXBR=ka,u.de=N,u.cCL=Ka,u.gEC=fd,u.iEC=Sc,u.rnw=Pa,u.gto=Ia,u.ael=Ma,u.rel=ha,u.sup=ba,u.cuel=sa,u)}function t(){try{var u=n.dT_;$c=n.XMLHttpRequest;Ec=n.ActiveXObject;z=n.addEventListener;G=n.removeEventListener;T=n.document.addEventListener;la=n.document.removeEventListener;ec=n.setTimeout;Kc=n.setInterval;Bd||(nf=n.clearTimeout,Cg=n.clearInterval);if(!((u.iCE?u.iCE():navigator.cookieEnabled)&&("complete"!==document.readyState||n.performance&&n.performance.timing)))return!1;da();Ba();
+            var J=Math.random(),ta=Math.random();ui=0!==J&&0!==ta&&J!==ta;Dg=L();Ye=Lf%jd+"_"+C(H(0,1E3)+"");var R;of=(R={},R.ade="",R.aew=!0,R.agentLocation="",R.agentname="",R.agentUri="",R.uana="data-dtname,data-dtName",R.app="",R.async=!1,R.ase=!1,R.auto=!1,R.bp1=!1,R.bp2=!1,R.bp=1,R.bs=!1,R.buildNumber=0,R.ccNcss=!1,R.coo=!1,R.cooO=!1,R.cors=!1,R.csu="",R.cuc="",R.cux=!1,R.dataDtConfig="",R.debugName="",R.dASXH=!1,R.disableCookieManager=!1,R.disableLogging=!1,R.dmo=!1,R.dpvc=!1,R.disableXhrFailures=!1,R.domain=
+            "",R.domainOverride="",R.doNotDetect="",R.ds=!0,R.dsndb=!1,R.dsss=!1,R.eni=!1,R.euf=!1,R.evl="",R.extblacklist="",R.exteventsoff=!1,R.fau=!0,R.fa=!1,R.featureHash="",R.ffi=!1,R.hvt=216E5,R.lastModification=0,R.imm=!1,R.initializedModules="",R.ign="",R.instr="",R.iub="",R.lab=!1,R.legacy=!1,R.lmut=!0,R.lzwd=!1,R.lzwe=!1,R.mb="",R.md="",R.mdp="",R.mdl="",R.mdn=5E3,R.bismepl=2E3,R.mel=200,R.mepp=10,R.moa=30,R.mrt=3,R.mpl=1024,R.mmds=2E4,R.msl=3E4,R.mhl=4E3,R.name="",R.ncw=!1,R.ntd=!1,R.oat=180,R.ote=
+            !1,R.owasp=!1,R.perfbv=1,R.prfSmpl=0,R.pt=!0,R.pui=!1,R.pVO=!1,R.raxeh=!0,R.rdnt=0,R.reportUrl="dynaTraceMonitor",R.restoreTimeline=!1,R.rid="",R.ridPath="",R.rpid="",R.rt=1E4,R.rtl=0,R.rtp=2,R.rtt=1E3,R.rtu=200,R.rx_visitID="",R.sl=100,R.spc="",R.srbbv=1,R.srbw=!0,R.srad=!0,R.srmr=100,R.srms="1,1,,,",R.srsr=1E5,R.srtbv=3,R.srtd=1,R.srtr=500,R.srvr="",R.srwo=!1,R.ssc=!1,R.st=3E3,R.svNB=!1,R.syntheticConfig=!1,R.tal=0,R.tp="500,50,3",R.tt=100,R.tvc=3E3,R.uam=!1,R.useNewCookies=!1,R.uxdce=!1,R.uxdcw=
+            1500,R.uxrgce=!0,R.uxrgcm="100,25,300,3;100,25,300,3",R.vcfi=!0,R.vcit=1E3,R.vct=50,R.vcv=1,R.vcx=50,R.vs=1,R.xb="",R.chw="",R.xmut=!0,R.xt=0,R.srrc=!1,R.srrcsr=0,R);a:{var Db=p().cfg;Qb={reportUrl:"dynaTraceMonitor",initializedModules:"",csu:"dtagent",dataDtConfig:"string"===typeof Db?Db:""};p().cfg=Qb;Qb.csu="ruxitagentjs";var Hb=Qb.dataDtConfig;Hb&&-1===w(Hb,"#CONFIGSTRING")&&(wb(Hb,Qb),ac("domain"),ac("auto"),ac("app"),jc(Qb));var qc=y("script"),Sd=B(qc),cd=-1===w(Qb.dataDtConfig||"","#CONFIGSTRING")?
+            Qb:null;if(0<Sd)for(u=0;u<Sd;u++)b:{J=void 0;var id=qc[u];ta=cd;if(id.attributes){var xb=Qb.csu+"_bootstrap.js";R=/.*\/jstag\/.*\/.*\/(.*)_bs(_dbg)?.js$/;Db=ta;var ud=id.src,Qf=null===ud||void 0===ud?void 0:ud.indexOf(xb),bf=id.attributes.getNamedItem("data-dtconfig");if(bf){Hb=ud;var cf=bf.value,Le={};Qb.legacy="1";if(Hb){var Jd=/([a-zA-Z]*)[0-9]{0,4}_([a-zA-Z_0-9]*)_([0-9]+)/g.exec(Hb);if(null===Jd||void 0===Jd?0:Jd.length)Le.csu=Jd[1],Le.featureHash=Jd[2],Le.agentLocation=Hb.substr(0,w(Hb,Jd[1])-
+            1),Le.buildNumber=Jd[3]}cf&&wb(cf,Le,!0);bd(Le);J=Le;if(!ta)Db=J;else if(!J.syntheticConfig){cd=J;break b}}J||(J=Qb);if(0<Qf){var tf=Qf+xb.length+5;J.app=ud.length>tf?ud.substr(tf):"Default%20Application"}else if(ud){var Ig=R.exec(ud);Ig&&(J.app=Ig[1])}cd=Db}else cd=ta}if(cd)for(var Me in cd)cd.hasOwnProperty(Me)&&(qc=Me,Qb[qc]=cd[qc]);if(Qb.rx_visitID){var dh=Qb.rx_visitID;dh&&(p().rx_visitID=dh)}var ke=Ob();try{var Rf=(cd=ah)&&cd.getItem(ke);if(Rf){var Ne=zb(Rf),Wd=wb(Ne.config||""),Sf=Qb.lastModification||
+            "0",Oe=C((Wd.lastModification||Ne.lastModification||"0").substr(0,13)),Pe="string"===typeof Sf?C(Sf.substr(0,13)):Sf;if(!Sf||Oe>=Pe)if(Wd.agentname=Ne.name,Wd.agentUri?jc(Wd):(Wd.csu=Ne.name,Wd.featureHash=Ne.featureHash),Nb(Wd,!0),Ya(Wd),Ja(Wd),Oe>(Qb.lastModification||0)){var vi=Qb.auto,eh=Qb.legacy;Qb=Fc(Wd);Qb.auto=vi;Qb.legacy=eh}}}catch(we){}Nb(Qb);try{var uf=Qb.ign;if(uf&&(new RegExp(uf)).test(n.location.href)){document.dT_=n.dT_=void 0;var le=!1;break a}}catch(we){}Qb.useNewCookies&&(Of="rxpc",
+            Ab="rxsession",ch="rxlatency",de="x-rxpc",Mh="x-rxreferer");if(eb()){var df=navigator.userAgent,xe=w(df,"RuxitSynthetic")+14+5,fg=df.substring(xe);if(-1!==w(fg," c")){var Tf=fg.split(" ");for(ke=0;ke<Tf.length;ke++){var gg=Tf[ke];if("c"===gg.charAt(0)){var hg=gg.substr(1),Jg=hg.indexOf("="),Oh=hg.substring(0,Jg),Kd=hg.substring(Jg+1);Oh&&Kd&&(Ie[Oh]=Kd)}}}Fc(Qb)}le=!0}if(!le)return!1;td();try{ye=p().disabled||!!Cb("dtDisabled")}catch(we){}var qd;if(!(qd=Eb("agentLocation")))a:{var fh=Eb("agentUri");
+            if(fh||document.currentScript){var ef=fh||document.currentScript.src;if(ef){le=ef;var Qe=-1===w(le,"_bs")&&-1===w(le,"_bootstrap")&&-1===w(le,"_complete")?1:2,vf=ef.lastIndexOf("/");for(le=0;le<Qe&&-1!==vf;le++)ef=ef.substr(0,vf),vf=ef.lastIndexOf("/");qd=ef;break a}}var Uf=location.pathname;qd=Uf.substr(0,Uf.lastIndexOf("/"))}Vd=qd;pd=Eb("agentname")||Eb("csu")||"ruxitagentjs";"true"===ra("dtUseDebugAgent")?0>pd.indexOf("dbg")&&(pd=Eb("debugName")||pd+"dbg"):pd=Eb("name")||pd;if(!Gb("auto")&&!Gb("legacy")&&
+            !ye){var Kg=Eb("agentUri")||Z(Eb("featureHash")),ig;if(!(ig=Gb("async")||"complete"===document.readyState)){var Ph=n.navigator.userAgent,Qh=Ph.indexOf("MSIE ");ig=0<Qh?9>=parseInt(Ph.substring(Qh+5,Ph.indexOf(".",Qh)),10):!1}ig?x(Kg,Gb("async"),void 0,void 0,"dtjsagent"):(document.write('<script id="dtjsagentdw" type="text/javascript" src="'+Kg+'">\x3c/script>'),document.getElementById("dtjsagentdw")||x(Kg,Gb("async"),void 0,void 0,"dtjsagent"))}-1!==w(n.location.href,"_DT_RENDERING_")&&(p().RMOD=
+            {conf:Lg,ignore:gh,ID:"_DT_RENDERING_"},Vd&&x(Z("R"),!0,void 0,void 0,"dtjsagent"));ra(Ab)&&(Qb.cooO=!0);Md();var jg=!!Nc("dt-pVO");Qb.pVO=jg;ee(af);Fg=18E5;dg=Rb("hvt")||216E5;Lc(nd);Lc(gd,[1])}catch(we){return!1}return!0}function p(){return n.dT_}var n="undefined"!==typeof window?window:self,z,G,T,la,ya=n.attachEvent,Xa=n.Worker,cb=Xa&&Xa.prototype.addEventListener,$a=[],rc=["touchstart","touchend","scroll"],$c,Ec,ec,Kc,rb=n.postMessage,Yb=n.Worker,$b=n.Blob,ic=n.URL&&n.URL.createObjectURL,Xb=n.Worker&&
+            n.Worker.prototype.postMessage,ad=n.parent.postMessage,ti=n.top.postMessage,nf,Cg,Bd=!1,Ad,Kf=[],Lf,ah,Mf,He={},Oc,Dg,ui,bh=new (function(){return function(){this["!"]="%21";this["~"]="%7E";this["*"]="%2A";this["("]="%28";this[")"]="%29";this["'"]="%27";this.$="%24";this[";"]="%3B";this[","]="%2C"}}()),Nf,Ie={},of,Of="dtPC",Ab="dtCookie",de="x-dtpc",Mh="x-dtreferer",ch="dtLatC",Eg=32,Qb={},se,Ye,jd=6E8,pf="rxec",Pf="rxvisitid",Vc,Fg,dg,Ze=!1,Gg=[],Nh=!1,rf=[],od=[],Hg=!1,ye,Vd,pd,Lg={childList:!0,
+            subtree:!0,attributes:!0,attributeOldValue:!0},gh=["_DT_RENDERING_"];(function(u){var J,ta;u=u||0>(null===(J=navigator.userAgent)||void 0===J?void 0:J.indexOf("RuxitSynthetic"));if(!n.dT_||!n.dT_.cfg||"string"!==typeof n.dT_.cfg||"initialized"in n.dT_&&n.dT_.initialized)null===(ta=n.console)||void 0===ta?void 0:ta.log("InitConfig not found or agent already initialized! This is an injection issue.");else if(u&&!t()){try{delete n.dT_}catch(R){n.dT_=void 0}Ka()&&n.console.log("JsAgent initCode initialization failed!")}})(!1)})();}).call(this);
+        </script>
+    </head>
+<style>
+    body {
+        background-color: #f2f2f2;
+    }
+    .newH{
+        font-weight: 300; font-size: 30px; padding-top: 18px; padding-bottom: 5px;
+    }
+    .newH2{
+        font-weight: 300; font-size: 26px; padding-bottom: 14px;
+    }  
+    #RootCauseAnalysisProgress {
+        width: 100%;
+        background-color: white;
+    }
+
+    #RootCauseAnalysisBar {
+        width: 0%;
+        height: 20px;
+        background-color: #4CAF50;
+    }  
+    #stage1progress, #stage2progress {
+        width: 100%;
+        background-color: white;
+    }
+    #stage1bar, #stage2bar {
+        width: 0%;
+        height: 20px;
+        background-color: #4CAF50;
+    }
+    .subnav__link:hover{
+        cursor: pointer;
+    }
+</style>
+<head><link rel="stylesheet" href="main.css" /></head>
+<body class="theme--blue">
+    <div id='top' class="nav has-no-secondary">
+        <a class="nav__brand" href="https://www.dynatrace.com/">
+            <img class="nav__logo" src="http://assets.dynatrace.com/global/logos/dynatrace-logo.svg" alt="dynatrace logo"/>
+        </a>
+        <div class="nav__buttongroup">
+            <button data-target="#nav-bar-example1" class="nav__btn nav__btn--menutoggle">Menu</button>
+        </div>
+        <nav id="nav-bar-example1" class="nav__bar">
+            <ul class="nav__list nav__list--primary">
+            <li class="nav__item">
+                <a class="nav__link" href="https://www.dynatrace.com"></a>
+            </li>
+            </ul>
+        </nav>
+    </div>   
+    <div id='topSub' class="subnav">
+        <nav class="subnav__bar">
+            <ul class="subnav__list">
+            <li class="subnav__item is-current">
+                <a class="subnav__link">License Report</a>
+            </li>
+            </ul>
+        </nav>
+    </div>
+    <div id='Home'>
+        <div class="layout has-islands">
+            <div class="layout__container layout--full">
+                <div class="island">
+                    <!--Title + Davis Icon-->
+                    <div class="infochip">
+                        <div class="infochip__icon">
+                        <img class="icon icon--blue--big" src='collector-gray700.svg' style='height: 80px; width: 80px;'></img>    
+                        </div>
+                        <div class="infochip__desc">
+                        <div class="infochip__desc__title" title="Title">
+                            <div class='newH'>License Report</div>
+                        </div>
+                        <div>Breaks down License Report consumption by Management Zone</div>
+                        </div>
+                    </div>
+                    <br>
+                    
+                    <br>
+                    <p>Input a Dynatrace environment and a Dynatrace API token with master permissions.</p>
+                    <p>The program will pull all licensing information available and breakdown consumption by Management Zone.</p>
+                    <p>The output is in the form of an HTML table and CSV file.</p>
+                </div>
+                <div class="island">
+                    <field class='field' style="width: 50%">
+                        <label for="i0" class="label">Dynatrace Environment URL:</label>
+                        <input type="text" class="inputfield" id="env"/>
+                    </field>
+                    <field class='field' style="width: 50%">
+                        <label for="i0" class="label">API Token:</label>
+                        <input type="text" class="inputfield" id="tok"/>
+                    </field>
+                    <br>
+                    <br>
+                    <button role="button" type="button" class="btn btn--primary theme--dark" onclick="main()">RUN</button>
+                </div>
+                <div class="island" id='licenseIsland' style="display: none">
+                    <table class='table'>
+                        <thead>
+                            <tr><td>Management Zone</td><td>Host Units</td><td>User Session DEMs</td><td>Replay DEMs</td><td>Synthetic Action DEMs</td><td>HTTP Check DEMs</td></tr>
+                        </thead>
+                        <tbody id='licenseTable'></tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script type="text/javascript" src="main.js"></script>
+<script>  
+    dtrum.setAutomaticActionDetection(false);
+    let totalReplayDEM = 0;
+    let totalSessionDEM = 0;
+    let totalHostUnits = 0;
+    let totalSyntheticActions = 0;
+    let totalHTTPChecks = 0;
+    let managementZones = [];
+    let results = [];
+    let csvStr = 'Management Zone,Host Units,User Session DEMs,Replay DEMs,Synthetic Action DEMs,HTTP DEMs\n';
+    let date, request;
+
+    let rateSynthAction = 1;
+    let rateHTTPMonitor = 0.1;
+    let rateUserSession = 0.25;
+    let rateReplSession = 1;
+
+    function main(){
+        date = new Date();
+        date = date.getTime();
+        request = {
+            "url": document.getElementById('env').value + "/api/config/v1/managementZones",
+            "method": "GET",
+            "timeout": 0,
+            "headers": {
+                "Authorization": "Api-Token " + document.getElementById('tok').value,
+                "Content-Type": "application/json"
+            }
+        };
+        $.ajax(request).done(function (response) {
+            let i = response.values.length-1;
+            for(i; i >= 0; i--) managementZones.push(response.values[i]);
+            forEachManagementZone(0);
+        });
+    }
+
+    function forEachManagementZone(x){
+        totalReplayDEM = 0;
+        totalSessionDEM = 0;
+        totalHostUnits = 0;
+        totalSyntheticActions = 0;
+        console.log("Fetching " + managementZones[x]['name'] + "....");
+        let settings = request;
+        settings["url"] = document.getElementById('env').value + "/api/v1/entity/infrastructure/hosts?managementZone=" + managementZones[x]['id'];
+        try{
+            $.ajax(settings).done(function (response) {
+                let i = response.length-1;
+                //adds Host Units from hosts
+                for(i; i >= 0; i--) totalHostUnits += Number(response[i]['consumedHostUnits']);                
+                //gets User Sessions
+                settings["url"] = document.getElementById('env').value + "/api/v2/metrics/query?metricSelector=builtin:billing.apps.web.sessionsWithoutReplayByApplication&entitySelector=type(APPLICATION), mzName(\""+ managementZones[x]['name']+"\")&resolution=Inf";
+                try{
+                    $.ajax(settings).done(function (response) {
+                        let short = response['result'][0]['data'];
+                        let i = short.length-1;
+                        //adds all User Sessions
+                        for(i; i >= 0; i--) if(short[i]['dimensions'].includes('Billed')) totalSessionDEM += short[i].values[0];
+                        //gets Replay Sessions
+                        settings["url"] = document.getElementById('env').value + "/api/v2/metrics/query?metricSelector=builtin:billing.apps.web.sessionsWithReplayByApplication&entitySelector=type(APPLICATION), mzName(\""+ managementZones[x]['name']+"\")&resolution=Inf";
+                        try{
+                            $.ajax(settings).done(function (response) {
+                                let short = response['result'][0]['data'];
+                                let i = short.length-1;
+                                //adds all Replay Sessions
+                                for(i; i >= 0; i--) if(short[i]['dimensions'].includes('Billed')) totalReplayDEM += short[i].values[0];
+                                //get Synthetic Actions
+                                settings["url"] = document.getElementById('env').value + "/api/v2/metrics/query?metricSelector=builtin:billing.synthetic.actions&entitySelector=type(SYNTHETIC_TEST), mzName(\""+ managementZones[x]['name']+"\")&resolution=Inf";
+                                try{
+                                    $.ajax(settings).done(function (response) {
+                                        let short = response['result'][0]['data'];
+                                        let i = short.length-1;
+                                        //adds Synthetic Actions
+                                        for(i; i >= 0; i--) totalSyntheticActions += short[i].values[0];
+                                        //get HTTP Checks
+                                        settings["url"] = document.getElementById('env').value + "/api/v2/metrics/query?metricSelector=builtin:billing.synthetic.requests&entitySelector=type(HTTP_CHECK), mzName(\""+ managementZones[x]['name']+"\")&resolution=Inf";
+                                        try{
+                                            $.ajax(settings).done(function (response) {
+                                                let short = response['result'][0]['data'];
+                                                let i = short.length-1;
+                                                //adds HTTP Checks
+                                                for(i; i >= 0; i--) totalHTTPChecks += short[i].values[0];
+
+                                                //DONE
+                                                console.log(managementZones[x]['name']);
+                                                console.log("Host Units: " + totalHostUnits.toFixed(2));
+                                                console.log("User Sessions: " + totalSessionDEM);
+                                                console.log("Replay Sessions: " + totalReplayDEM);
+                                                console.log("Synthetic Actions: " + totalSyntheticActions);
+                                                console.log("HTTP Checks: " + totalHTTPChecks);
+                                                console.log("");
+                                                if(x != managementZones.length-1) {
+                                                    document.getElementById('licenseTable').innerHTML += "<tr><td>" + managementZones[x]['name'] + "</td><td>" + totalHostUnits.toFixed(2) + "</td><td>" + (totalSessionDEM * rateUserSession)  + "</td><td>" + (totalReplayDEM * rateReplSession) + "</td><td>" + (totalSyntheticActions * rateSynthAction) + "</td><td>" + (totalHTTPChecks * rateHTTPMonitor) + "</td></tr>";
+                                                    csvStr += managementZones[x]['name'] + "," + totalHostUnits.toFixed(2) + "," + (totalSessionDEM * rateUserSession) + "," + (totalReplayDEM * rateReplSession) + "," + (totalSyntheticActions * rateSynthAction) + "," + (totalHTTPChecks * rateHTTPMonitor) + "\n";
+                                                    /*results.push({
+                                                        "Management Zone": managementZones[x]['name'],
+                                                        "Host Units": totalHostUnits.toFixed(2),
+                                                        "SessionDEMs": (totalSessionDEM * rateUserSession),
+                                                        "ReplayDEMs": (totalReplayDEM * rateReplSession),
+                                                        "SyntheticDEMs": (totalSyntheticActions * rateSynthAction),
+                                                        "HTTPDEMs": (totalHTTPChecks * rateHTTPMonitor)
+                                                    });*/
+                                                    setTimeout(forEachManagementZone(x+1), 1000);
+                                                }
+                                                else{
+                                                    document.getElementById('licenseIsland').style.display = "block";
+                                                    download(csvStr, "License Report");
+                                                }
+                                            });
+                                        }
+                                        catch{
+                                            console.log("ERROR: Pulling Synthetic Actions for " + managementZones[x]);
+                                            console.log(response);
+                                        }
+                                    });
+                                }
+                                catch{
+                                    console.log("ERROR: Pulling Synthetic Actions for " + managementZones[x]);
+                                    console.log(response);
+                                }
+                            });
+                        }
+                        catch{
+                            console.log("ERROR: Pulling Replay Sessions for " + managementZones[x]);
+                            console.log(response);
+                        }
+                    });
+                }
+                catch{
+                    console.log("ERROR: Pulling User Sessions for " + managementZones[x]);
+                    console.log(response);
+                }
+            });
+        }
+        catch{
+            console.log("ERROR: Pulling Hosts for " + managementZones[x]);
+            console.log(response);
+        }
+    }
+
+    function download(str, name){
+        console.log("Downloading...");
+        let csvContentEnt = "data:text/csv;charset=utf-8," + str;
+        let encodedUri = encodeURI(csvContentEnt);
+        let link = document.createElement("a");
+        link.setAttribute("href", encodedUri);
+        link.setAttribute("download", name + ".csv");
+        document.body.appendChild(link); // Required for FF
+        link.click();
+    }
+</script>
+</html>
